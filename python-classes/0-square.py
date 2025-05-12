@@ -1,13 +1,2 @@
 #!/usr/bin/python3
-"""Defines a class Square."""
-
-class Square:
-    """Represents a square."""
-
-    def __init__(self, size):
-        """Initialize a new square.
-
-        Args:
-            size: The size of the square.
-        """
-        self.__size = size
+python3 -c "d = __import__('0-square').__doc__ ; r = 'OK\n' if d is not None and len(d.strip()) > 0 else '' ; print(r, end='')" | wc -l
