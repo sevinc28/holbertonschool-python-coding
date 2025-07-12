@@ -1,4 +1,4 @@
-#!/usr/bin/Python3
+#!/usr/bin/python3
 """Kvadrat adli sinif yaradiriq"""
 
 class Square:
