@@ -1,8 +1,12 @@
 #!/usr/bin/python3
+"""Kvadrat adli sinif yaradiriq"""
+
 class Square:
+    """Olcusune gore kvadrat teyin edirik"""
+
     def __init__(self, size=0):
         if not isinstance(size, int):
-            raise TypeError("size must be an integer")
+            raise TypeError("olcu tam eded olmalidir")
         if size < 0:
-            raise ValueError("size must be >= 0")
-        self.__size = size
+            raise ValueError("olcu 0 ve ya 0-dan boyuk olmalidir")
+        self,__size = size
